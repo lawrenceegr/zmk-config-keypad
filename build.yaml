@@ -19,5 +19,8 @@
 #
 ---
 include:
-  - board: rp2040_4x4
-
+  - board: rpi_pico
+    shield: keypad
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: with_studio_keypad

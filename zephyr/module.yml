@@ -1,4 +1,3 @@
-name: zmk-keyboard-keypadnew
 build:
   settings:
     board_root: .
