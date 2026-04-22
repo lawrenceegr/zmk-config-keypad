@@ -5,6 +5,7 @@
     chosen {
         zmk,kscan = &composite_kscan;
         zmk,physical-layout = &default_layout;
+        zmk,storage = &storage_partition;
     };
 
     left_encoder: left_encoder {
