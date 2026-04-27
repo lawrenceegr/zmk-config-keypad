@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: rpi_pico
+  - board: rp2040_zero
     shield: keypad
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
